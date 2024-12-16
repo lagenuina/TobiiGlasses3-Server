@@ -21,7 +21,8 @@ This project serves as a server for streaming real-time data from **Tobii Glasse
        ```
        venv\Scripts\activate
        ```
-- Clone this [Unity project](https://github.com/lagenuina/UnityTobiiGlasses3.git).
+
+- If you haven't already, clone this [Unity project](https://github.com/lagenuina/UnityTobiiGlasses3.git).
 
 ### Install Dependencies
 To install the required dependencies, run:
@@ -38,7 +39,7 @@ pip install ".[test, examples, example-app]"
 
 - Run the script
     ```
-    `python scripts/sendgazedata`.
+    python src/sendgazedata.py
     ```
 
 This script connects to Tobii Glasses 3 to stream real-time gaze and video data. It sends **gaze information** *(pixel coordinates, eyes origin, direction and pupils diameter)* via TCP to Unity.
