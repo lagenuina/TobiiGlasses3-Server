@@ -22,9 +22,11 @@ This project serves as a server for streaming real-time data from **Tobii Glasse
        venv\Scripts\activate
        ```
 
-- If you haven't already, clone this [Unity project](https://github.com/lagenuina/UnityTobiiGlasses3.git).
-
 ### Install Dependencies
+Clone this repository into a separate directory from your Unity project.
+```
+git clone https://github.com/lagenuina/TobiiGlasses3-Server.git
+```
 To install the required dependencies, run:
 ```
 pip install .
