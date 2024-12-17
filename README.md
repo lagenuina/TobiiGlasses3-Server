@@ -4,6 +4,12 @@ This project serves as a server for streaming real-time data from **Tobii Glasse
 
 ---
 
+## Instructions
+Clone this repository:
+```
+git clone https://github.com/lagenuina/TobiiGlasses3-Server.git
+```
+
 ### Requirements
 - Python 3.10
 - If you have another version of Python, create a virtual environment:
@@ -21,12 +27,9 @@ This project serves as a server for streaming real-time data from **Tobii Glasse
        ```
        venv\Scripts\activate
        ```
-
+       
 ### Install Dependencies
-Clone this repository into a separate directory from your Unity project.
-```
-git clone https://github.com/lagenuina/TobiiGlasses3-Server.git
-```
+
 To install the required dependencies, run:
 ```
 pip install .
